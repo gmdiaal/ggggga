@@ -1,6 +1,6 @@
 package com.meme.object1;
 
-public class Obeject_main_2 {
+public class Object_main_2 {
 
 	public static void main(String[] args) {
 		//Sword instance(객체) 생성
@@ -27,8 +27,9 @@ public class Obeject_main_2 {
 //		k1.sword2 = new Sword();
 //		k1.sword2.name = "검1";
 				
-//		System.out.println(k1.sword.name);
-//		
+		System.out.println(k1.sword.name);
+		System.out.println(k1.sword.ad);
+		
 //		Sword s3=null; //main메소드 안의 지역번수면서 주소를 담고잇는 참조변수. 지역변수는 초기화를 해야댐.
 //		//초기화 해도, 참조할 객체가 없어서 읽을 수 없음.
 //		System.out.println(s3.ad);

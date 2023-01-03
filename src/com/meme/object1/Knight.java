@@ -11,5 +11,8 @@ public class Knight {
 	Sword sword;
 	Sword sword2;
 
+	public void kn_ar () {
+		
+	}
 	
 }

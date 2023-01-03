@@ -37,14 +37,14 @@ public class Menu_controller {
 			Student student = new Student();
 			student = input_st.find_student(students);
 			if(student != null) {
-				student_view.view_one(student);
+				student_view.view(student);
 			}else{System.out.println("찾는 학생이 없습니다.");};
 			
 			
 			break;
 		case 3:
 			System.out.println("학생 전체 정보 출력");
-			student_view.view_list(students);
+			student_view.view(students);
 			break;
 		case 4:
 			System.out.println("학생 추가");
