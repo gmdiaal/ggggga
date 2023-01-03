@@ -12,6 +12,7 @@ public class _0_Main {
 		System.out.println(num);
 
 	//	System.out.println(ar[0]);
+		System.out.println("집에서추가");
 		System.out.println("fin");
 		
 		int [] ar = return_test.t3();
