@@ -12,6 +12,7 @@ public class _0_Main {
 		System.out.println(num);
 
 	//	System.out.println(ar[0]);
+		System.out.println();
 		
 		int [] ar = return_test.t3();
 		System.out.println(ar[0]);
