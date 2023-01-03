@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author wkddl
+ *
+ */
+module ggggga {
+}
