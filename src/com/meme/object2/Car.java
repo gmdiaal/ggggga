@@ -2,11 +2,16 @@ package com.meme.object2;
 
 public class Car {
 
-	String company;
+	String company="BMW";
 	String name;
 	int price;
 	int speed;
 	String color;
+	
+	{//instance블럭에서는, 공통적 멤버변수를 정할 때 쓰렴..
+		System.out.println("초기화블럭: "+ this.company);
+		this.company = "AUDI";
+	}//초기화 블럭.
 
 //	public Car(int price, int speed) {
 //		this.company = "Kia";
@@ -24,11 +29,12 @@ public class Car {
 //	}
 	
 	public Car() {
-		this("black");//생성자 내에서 다른 생성자 호출
-//		this.company = "Kia";
-//		this.name = "스포티지";
-//		this.price = 3500;
-//		this.color = "black";
+//		this("black");//생성자 내에서 다른 생성자 호출
+		System.out.println("생성자: "+ this.company);
+		this.company = "Kia";
+		this.name = "스포티지";
+		this.price = 3500;
+		this.color = "black";
 	}
 	public Car(String color) {
 		this("color", 3500);
