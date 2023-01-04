@@ -2,7 +2,7 @@ package com.meme.object2;
 
 public class Car {
 
-	String company="BMW";
+	static String company="BMW";
 	String name;
 	int price;
 	int speed;
@@ -13,21 +13,6 @@ public class Car {
 		this.company = "AUDI";
 	}//초기화 블럭.
 
-//	public Car(int price, int speed) {
-//		this.company = "Kia";
-//		this.name = "스포티지";
-//		this.price = price;
-//		this.speed = speed;
-//		this.color = "black";
-//	}
-//	public Car(int speed, int price ) {
-//		this.company = "Kia";
-//		this.name = "스포티지";
-//		this.price = price;
-//		this.speed = speed;
-//		this.color = "black";
-//	}
-	
 	public Car() {
 //		this("black");//생성자 내에서 다른 생성자 호출
 		System.out.println("생성자: "+ this.company);
