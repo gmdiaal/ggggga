@@ -7,6 +7,7 @@ public class _0_Main {
 		
 		//int a = return_test.t1(); //리턴할 값이 없음.
 		int [] a = return_test.t1(50); //리턴할 값이 없음.
+		System.out.println(a[0]);
 		
 		int num = return_test.t2();
 		System.out.println(num);
